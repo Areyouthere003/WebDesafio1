@@ -1,0 +1,41 @@
+*{ /* Selector universal para colocar todas las propiedades de la página*/
+    color: blue;
+    background-color: #cfc;
+    font-family: Georgia, Cambria, serif;
+    font-size: 1em;
+    text-align: justify;
+}
+
+h1{
+    color: #F00;
+    font-family: Verdana, Calibri, sans-serif;
+    font-size: 2em;
+}
+
+h2{
+    color: #A00;
+    font-family: Verdana, Calibri, sans-serif;
+    font-size: 18pt;
+}
+
+.Minititulos{ /* Selector de clase para realizar una acción especifica*/
+    color: #060;
+}
+
+.resaltar{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.remarcar{ 
+    color: white;
+    background-color: black;
+    font-style: italic;
+}
+
+p{
+    width: 35cm;
+    /* 
+    Mantiene la forma del texto así hagan zoom out 
+    */
+}
